@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/RG-Le/Kidney-Disease-Classification-MLFlow
+Author: RG-Le
+Author-email: rajatgore2001@gmail.com
+Project-URL: Bug Tracker, https://github.com/RG-Le/Kidney-Disease-Classification-MLFlow/issues
+
+# Kidney-Disease-Classification-MLFlow
