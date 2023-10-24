@@ -41,3 +41,25 @@ conda activate cnncls
 ```bash
 pip install -r requirements.txt
 ```
+
+#### MLFLOW 
+###### cmd
+- mlflow ui
+
+### Dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/RG-Le/Kidney-Disease-Classification-MLFlow.mlflow \
+MLFLOW_TRACKING_USERNAME=RG-Le \
+MLFLOW_TRACKING_PASSWORD=c9385918b480d09da6663c4a7f67a55fdce010aa \
+python script.py
+
+Run this to export as env variables
+
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/RG-Le/Kidney-Disease-Classification-MLFlow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=RG-Le
+
+export MLFLOW_TRACKING_PASSWORD=c9385918b480d09da6663c4a7f67a55fdce010aa
+```

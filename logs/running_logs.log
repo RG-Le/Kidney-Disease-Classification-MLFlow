@@ -222,3 +222,143 @@ x===================x]
 [2023-10-15 14:15:29,346: INFO: main: >>>>>>> Stage Training completed <<<<<<<
 
 x===================x]
+[2023-10-21 23:13:45,775: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:13:45,782: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:13:45,783: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:14:33,660: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:14:33,663: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:14:33,665: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:18:14,951: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:18:14,956: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:18:14,957: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:19:20,094: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:19:20,097: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:19:20,099: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:20:06,925: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:20:06,928: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:20:06,930: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:21:01,266: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:21:01,269: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:21:01,270: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:21:50,355: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:21:50,358: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:21:50,361: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:22:24,974: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-21 23:22:25,773: INFO: builder_impl: Assets written to: C:\Users\rajat\AppData\Local\Temp\tmpv__rxca1\model\data\model\assets]
+[2023-10-21 23:33:49,721: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:33:49,726: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:33:49,727: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:40:46,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:40:46,565: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:40:46,567: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:46:12,159: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:46:12,164: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:46:12,168: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:47:19,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:47:19,562: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:47:19,564: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:48:30,844: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-21 23:48:30,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-21 23:48:30,851: INFO: common: Created directory at: artifacts]
+[2023-10-21 23:48:51,536: INFO: common: Json file saved successfully at: scores.json]
+[2023-10-21 23:48:57,080: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-21 23:48:57,790: INFO: builder_impl: Assets written to: C:\Users\rajat\AppData\Local\Temp\tmpfjjiev7r\model\data\model\assets]
+[2023-10-21 23:50:07,426: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)': /RG-Le/Kidney-Disease-Classification-MLFlow.mlflow/api/2.0/mlflow-artifacts/artifacts/791ce489aa9a4c828ece33a05f25dfff/ab984979d83a4f249528df78e9936447/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2023-10-22 00:05:07,883: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-10-22 00:05:07,886: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:05:07,893: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:05:07,893: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:05:07,894: INFO: common: Created directory at: artifacts/data_ingestion]
+[2023-10-22 00:05:07,894: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1lQSleJtjX222_GugfMKaJPWYJ5zmB0qD/view?usp=sharing intp file artifacts/data_ingestion/data.zip]
+[2023-10-22 00:05:14,437: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1lQSleJtjX222_GugfMKaJPWYJ5zmB0qD/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-22 00:05:15,208: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x===========x]
+[2023-10-22 00:05:15,208: INFO: main: *************************]
+[2023-10-22 00:05:15,208: INFO: main: >>>>>> Stage Prepare Base Model started <<<<<<]
+[2023-10-22 00:05:15,210: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:05:15,212: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:05:15,212: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:05:15,213: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2023-10-22 00:05:15,754: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-22 00:05:15,992: INFO: main: >>>>>>> Stage Prepare Base Model completed <<<<<<<
+
+x===================x]
+[2023-10-22 00:05:15,992: INFO: main: *************************]
+[2023-10-22 00:05:15,992: INFO: main: >>>>>> Stage Training started <<<<<<]
+[2023-10-22 00:05:15,995: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:05:15,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:05:15,997: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:05:15,998: INFO: common: Created directory at: artifacts\training]
+[2023-10-22 00:07:16,885: INFO: main: >>>>>>> Stage Training completed <<<<<<<
+
+x===================x]
+[2023-10-22 00:07:16,885: INFO: main: *************************]
+[2023-10-22 00:07:16,885: INFO: main: >>>>>> Stage Model Evaluation started <<<<<<]
+[2023-10-22 00:07:16,888: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:07:16,890: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:07:16,890: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:07:34,719: INFO: common: Json file saved successfully at: scores.json]
+[2023-10-22 00:07:40,369: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-10-22 00:07:40,976: INFO: builder_impl: Assets written to: C:\Users\rajat\AppData\Local\Temp\tmpn0rrjhi2\model\data\model\assets]
+[2023-10-22 00:08:58,758: INFO: main: >>>>>>> Stage Model Evaluation completed <<<<<<<
+
+x===================x]
+[2023-10-22 00:10:44,210: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-10-22 00:10:44,213: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:10:44,219: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:10:44,220: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:10:44,221: INFO: common: Created directory at: artifacts/data_ingestion]
+[2023-10-22 00:10:44,221: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1lQSleJtjX222_GugfMKaJPWYJ5zmB0qD/view?usp=sharing intp file artifacts/data_ingestion/data.zip]
+[2023-10-22 00:10:51,402: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1lQSleJtjX222_GugfMKaJPWYJ5zmB0qD/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-22 00:10:52,061: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x===========x]
+[2023-10-22 00:10:52,061: INFO: main: *************************]
+[2023-10-22 00:10:52,062: INFO: main: >>>>>> Stage Prepare Base Model started <<<<<<]
+[2023-10-22 00:10:52,064: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:10:52,065: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:10:52,065: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:10:52,066: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2023-10-22 00:10:52,493: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-22 00:10:52,721: INFO: main: >>>>>>> Stage Prepare Base Model completed <<<<<<<
+
+x===================x]
+[2023-10-22 00:10:52,721: INFO: main: *************************]
+[2023-10-22 00:10:52,721: INFO: main: >>>>>> Stage Training started <<<<<<]
+[2023-10-22 00:10:52,724: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:10:52,726: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:10:52,727: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:10:52,727: INFO: common: Created directory at: artifacts\training]
+[2023-10-22 00:12:56,089: INFO: main: >>>>>>> Stage Training completed <<<<<<<
+
+x===================x]
+[2023-10-22 00:12:56,090: INFO: main: *************************]
+[2023-10-22 00:12:56,090: INFO: main: >>>>>> Stage Model Evaluation started <<<<<<]
+[2023-10-22 00:12:56,092: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-22 00:12:56,094: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-22 00:12:56,094: INFO: common: Created directory at: artifacts]
+[2023-10-22 00:13:15,988: INFO: common: Json file saved successfully at: scores.json]
+[2023-10-22 00:13:36,350: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/log-batch failed with error code 400 != 200. Response body: '"repo not associated with run"']
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    model_trainer.main()
+  File "c:\users\rajat\onedrive\desktop\projects\kidney-disease-classification-mlflow\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\rajat\onedrive\desktop\projects\kidney-disease-classification-mlflow\src\cnnClassifier\components\model_evaluation_mlflow.py", line 62, in log_into_mlflow
+    mlflow.log_metrics(
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 677, in log_metrics
+    MlflowClient().log_batch(run_id=run_id, metrics=metrics_arr, params=[], tags=[])
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 986, in log_batch
+    self._tracking_client.log_batch(run_id, metrics, params, tags)
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 394, in log_batch
+    self.store.log_batch(run_id=run_id, metrics=metrics_batch, params=[], tags=[])
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 321, in log_batch
+    self._call_endpoint(LogBatch, req_body)
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/log-batch failed with error code 400 != 200. Response body: '"repo not associated with run"'

@@ -55,6 +55,20 @@ def create_directories(path_to_directories: list, verbose=True):
 @ensure_annotations
 def save_json(path: Path, data: dict):
     """
+     Saves data in Json format fiel
+
+     Args:
+         path (Path): path to json file
+    """
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+    
+    logger.info(f"Json file saved successfully at: {path}")
+
+
+@ensure_annotations
+def load_json(path: Path) -> ConfigBox:
+    """
      Load Json files data
 
      Args:
@@ -71,7 +85,19 @@ def save_json(path: Path, data: dict):
 
 
 @ensure_annotations
-def save_bin(path: Path) -> Any:
+def save_bin(path: Path, data: Any):
+    """
+    Save binary file
+
+    Args:
+        path (Path): path to binary file
+    """
+    joblib.dump(value=data, filename=path)
+    logger.info(f"Binary file saved at: {path}")
+
+
+@ensure_annotations
+def load_bin(path: Path) -> Any:
     """
     Load binary file
 
