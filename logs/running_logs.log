@@ -362,3 +362,41 @@ Traceback (most recent call last):
   File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
     raise MlflowException(
 mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/log-batch failed with error code 400 != 200. Response body: '"repo not associated with run"'
+[2023-10-25 23:29:44,174: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-10-25 23:29:44,177: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-25 23:29:44,180: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-25 23:29:44,181: INFO: common: Created directory at: artifacts]
+[2023-10-25 23:29:44,182: INFO: common: Created directory at: artifacts/data_ingestion]
+[2023-10-25 23:29:44,182: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1lQSleJtjX222_GugfMKaJPWYJ5zmB0qD/view?usp=sharing intp file artifacts/data_ingestion/data.zip]
+[2023-10-25 23:29:51,508: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1lQSleJtjX222_GugfMKaJPWYJ5zmB0qD/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-10-25 23:29:52,346: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x===========x]
+[2023-10-25 23:30:08,866: INFO: stage_02_prepare_base_model: *************************]
+[2023-10-25 23:30:08,866: INFO: stage_02_prepare_base_model: >>>>>> Stage Prepare Base Model started <<<<<<]
+[2023-10-25 23:30:08,868: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-25 23:30:08,870: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-25 23:30:08,871: INFO: common: Created directory at: artifacts]
+[2023-10-25 23:30:08,871: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2023-10-25 23:30:09,446: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-10-25 23:30:09,673: INFO: stage_02_prepare_base_model: >>>>>>> Stage Prepare Base Model completed <<<<<<<
+
+x===================x]
+[2023-10-25 23:30:16,205: INFO: stage_03_model_training: *************************]
+[2023-10-25 23:30:16,205: INFO: stage_03_model_training: >>>>>> Stage Training started <<<<<<]
+[2023-10-25 23:30:16,208: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-25 23:30:16,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-25 23:30:16,210: INFO: common: Created directory at: artifacts]
+[2023-10-25 23:30:16,211: INFO: common: Created directory at: artifacts\training]
+[2023-10-25 23:32:34,950: INFO: stage_03_model_training: >>>>>>> Stage Training completed <<<<<<<
+
+x===================x]
+[2023-10-25 23:32:43,688: INFO: stage_04_model_evaluation: *************************]
+[2023-10-25 23:32:43,689: INFO: stage_04_model_evaluation: >>>>>> Stage Evaluation Stage started <<<<<<]
+[2023-10-25 23:32:43,691: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-25 23:32:43,693: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-25 23:32:43,693: INFO: common: Created directory at: artifacts]
+[2023-10-25 23:33:00,962: INFO: common: Json file saved successfully at: scores.json]
+[2023-10-25 23:33:00,963: INFO: stage_04_model_evaluation: >>>>>>> Stage Evaluation Stage completed <<<<<<<
+
+x===================x]
