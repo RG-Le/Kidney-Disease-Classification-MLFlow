@@ -400,3 +400,38 @@ x===================x]
 [2023-10-25 23:33:00,963: INFO: stage_04_model_evaluation: >>>>>>> Stage Evaluation Stage completed <<<<<<<
 
 x===================x]
+[2023-10-26 00:04:46,701: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.250:8080]
+[2023-10-26 00:04:46,702: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-26 00:05:10,919: INFO: _internal: 127.0.0.1 - - [26/Oct/2023 00:05:10] "GET / HTTP/1.1" 200 -]
+[2023-10-26 00:05:58,650: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\rajat\anaconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 40, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\rajat\onedrive\desktop\projects\kidney-disease-classification-mlflow\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    test_image = image.load_image(imagename, target_size= (224,224))
+AttributeError: module 'keras.api._v2.keras.preprocessing.image' has no attribute 'load_image'
+[2023-10-26 00:05:58,653: INFO: _internal: 127.0.0.1 - - [26/Oct/2023 00:05:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2023-10-26 00:08:06,191: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.250:8080]
+[2023-10-26 00:08:06,191: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-10-26 00:08:14,138: INFO: _internal: 127.0.0.1 - - [26/Oct/2023 00:08:14] "GET / HTTP/1.1" 200 -]
+[2023-10-26 00:08:21,837: INFO: _internal: 127.0.0.1 - - [26/Oct/2023 00:08:21] "POST /predict HTTP/1.1" 200 -]
+[2023-10-26 00:08:47,942: INFO: _internal: 127.0.0.1 - - [26/Oct/2023 00:08:47] "POST /predict HTTP/1.1" 200 -]
+[2023-10-26 00:09:00,605: INFO: _internal: 127.0.0.1 - - [26/Oct/2023 00:09:00] "POST /predict HTTP/1.1" 200 -]
